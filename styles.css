@@ -17,8 +17,8 @@ body{
     background-image: url("images/aurora.jpg");
     background: linear-gradient(#A0CCD6, #D0E4CE, #E4E6AE);
     font-family: Manjari, sans-serif;
-    width: 720px;
-    margin: auto
+    max-width: 1000px;
+    margin: auto;
     
 } 
 
@@ -43,10 +43,7 @@ body{
     
 }
 
-h5{
-    color: 
-    
-}
+
 #txt-wrapper2{
     display: flex;
     justify-content: center;
@@ -56,7 +53,7 @@ h5{
     padding: 5px 5px 2px 5px;
     background-blend-mode: normal;
     color: whitesmoke;
-    text-shadow: 0px 0px 10px #1B2A34
+    text-shadow: 0px 0px 10px #1B2A34;
 }
     
 .activities{
@@ -92,10 +89,10 @@ h5{
     padding: 20px;
     background-image: url('images/aurora.jpg');
     background-size: cover;
-    border-radius: 10px 10px 0 0 ; 
+    border-radius: 10px 10px 0 0; 
     max-width: 720px;
     height: 400px;
-    color: whitesmoke
+    color: whitesmoke;
 }
 
 #sight-section{
