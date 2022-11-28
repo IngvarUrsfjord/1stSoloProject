@@ -1,0 +1,152 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+@font-face {
+    src: url("BOTTRBB_.TTF");
+    font-family: Blow;
+}
+
+body{
+    text-align: center;
+    background-image: url("images/aurora.jpg");
+    background: linear-gradient(#A0CCD6, #D0E4CE, #E4E6AE);
+    font-family: Manjari, sans-serif;
+    width: 720px;
+    margin: auto
+    
+} 
+
+.hero{
+    background-image: url("images/Bukta.jpg");
+    background-size: cover; 
+    width: 720px;
+    height: 343px;
+    margin: auto;
+    border-radius: 10px 10px 0 0;
+    padding: 20px 0px 50px 0px;
+    
+}
+
+#welcome_txt{
+    display: flex;
+    font-family: Blow; 
+    justify-content: flex-start;
+    margin-left: 10px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px #1B2A34;
+    
+}
+
+h5{
+    color: 
+    
+}
+#txt-wrapper2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 300px;
+    margin-left: 100px;
+    padding: 5px 5px 2px 5px;
+    background-blend-mode: normal;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px #1B2A34
+}
+    
+.activities{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #D0E4CE;
+    margin: auto;
+      
+}
+.info{
+    width: 720px;
+    display: flex;
+    padding-top: 40px;
+    margin: auto;
+    
+    
+    
+}
+#act-pic{
+    width: 100px;
+    height: 70px;
+    border-radius: 50px;
+}
+#bragging{
+    font-size: 12px;
+    font-style: italic;
+    margin: 20px;
+}
+
+
+
+.sightseeing{
+    padding: 20px;
+    background-image: url('images/aurora.jpg');
+    background-size: cover;
+    border-radius: 10px 10px 0 0 ; 
+    max-width: 720px;
+    height: 400px;
+    color: whitesmoke
+}
+
+#sight-section{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+ 
+}
+
+.stock-img{
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+    background-size: cover;
+    background-image: url('images/Stockfish.jpg');
+    cursor: pointer;
+       
+}
+
+#Cathedral:hover{
+    background-image: url('images/katedral.jpg');
+}
+
+#Cable_cart:hover{
+    background-image: url('images/Fjellheisen.jpeg');
+    
+}
+#Polaria:hover{
+    background-image: url('images/Polaria.jpg');
+}
+
+.card{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 2px;
+    border: 5px solid lightcoral;
+    font-size: 13px;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 60px;
+    background-color: #68899E;
+    border-radius: 10px;
+      
+}
+
+#bighat{
+    border-radius: 10px 0 0 10px;
+    margin-right: 5px;
+    padding: 5px;
+}
